@@ -1,2 +1,2 @@
 # klara
-learning git
+learning git on github
