@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	font-family: 'Lato', sans-serif;	
+}
+
+#container{
+	width: 100%;
+	background:#0F466E;
+    background:-webkit-linear-gradient(top,#0F466E 0%,#387AAB 75%);
+    background:-moz-linear-gradient(top,#0F466E 0%,#387AAB 75%);
+    background:-o-linear-gradient(top,#0F466E 0%,#387AAB 75%);
+    background:-ms-linear-gradient(top,#0F466E 0%,#387AAB 75%); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0F466E',endColorstr='#387AAB',GradientType=0);
+    height: auto;
+}
+
+#header{
+	width: 95%;
+	height: 80px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	background: grey;
+	border-radius: 5px;
+}
+
+.logo{
+	width: 15%;
+	height: 80px;
+	float: left;
+	background: white;
+	border-radius: 0 0 0 5px;
+}
+
+.navigasi{
+	width: 85%;
+	height: 80px;
+	float: left;
+	border-radius: 0 0 5px 0;
+}
+
+.navigasi .atas{
+	width: 100%;
+	height: 20px;
+	background: #191970;
+	float: left;
+}
+
+.atas ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;	
+}
+
+.atas li{
+	float: left;
+}
+
+.atas li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 15px;
+    text-decoration: none;
+}
+
+.navigasi .bawah{
+	width: 100%;
+	height: 60px;;
+	background: green;
+	float: left;
+	border-radius: 0 0 5px 0;
+}
+
+.bawah ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;	
+}
+
+.bawah li{
+	float: left;
+}
+
+.bawah li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#header input[type=text] {
+    width: 200px;
+    background: #ffffff;
+    opacity: 0.6;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    margin-top: 13px;
+}
+
+#bread{
+	height: 15px;
+	padding: 10px 10px;
+	background: #191970;
+	color: white;
+	font-size: 12px;
+	width: 300px;
+	text-align: center;
+}
+
+#content{
+	width: 95%;
+	margin: 0 auto;
+	background: white;
+	margin-top: 20px; 
+	display: table;
+	border-radius: 5px 5px 0 0;
+}
+
+.tag{
+	width: 120px;
+	height: auto;
+	background: red;
+	color: white;
+	margin: 20px 0 20px 0;
+	text-align: right;
+	padding: 5px 10px 5px 50px;
+	font-size: 12px;
+	float: left;
+}
+
+.saring{
+	width: 400px;
+	height: 35px;
+	float: right;
+	margin-top: 20px;
+}
+
+.saring .tagatas {
+	width: 300px;
+	height: 15px;
+	float: right;
+}
+
+.tagatas .tagbulan{
+	width: 150px;
+	height: 15px;
+	text-align: left;
+	float: left;
+}
+
+.tagatas .tagtahun{
+	width: 150px;
+	height: 15px;
+	text-align: left;
+	float: left;
+}
+
+.saring .tagbawah {
+	width: 400px;
+	height: 20px;
+	float: right;
+}
+
+.saring .tagbawah select{
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    background: white;
+ }
+
+.tagbawah .bawah1{
+	width: 100px;
+	height: 20px;
+	float: left;
+}
+
+.tagbawah .bawah2{
+	width: 150px;
+	height: 20px;
+	float: left;
+}
+
+.tagbawah .bawah3{
+	width: 150px;
+	height: 20px;
+	float: left;
+}
+.colom{
+	width: 100%;
+	column-count: 3;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.colom .isi{
+	width: 375px;
+	height: 60px;
+	padding: 10px;
+	float: left;
+	margin-right: 5px;
+}
+
+.colom .isi:nth-child(odd) {
+    background: white;
+}
+
+.colom .isi:nth-child(even) {
+    background: #DCDCDC;
+}
+
+.isi .kiri{
+	width: 100px;
+	height: 60px;
+	float: left;
+}
+
+.isi .kiri img{
+	width: 100px;
+	height: 60px;
+	float: left;
+}
+
+.isi .kanan{
+	width: 250px;
+	height: 60px;
+	padding-left: 10px;
+	float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 0;
+}
+
+.paging{
+	width: 300px;
+	height: 20px;
+	margin: 0 auto;
+	clear: both;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 11px;
+}
+
+.paging ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.paging li {
+    float: left;
+}
+
+.paging li a {
+	text-decoration: none;
+    display: block;
+    padding: 8px;
+    color: black;
+}
+
+.paging li a.active {
+    background-color: green;
+    color: white;
+    border-radius: 2px;
+}
+
+.paging li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    border-radius: 2px;
+}
+
+footer{
+	width: 100%;
+	height: 100px;
+	background: black;
+	color: white;
+}
+
+.kakikiri{
+	width: 28%;
+	float: left;
+	padding: 30px;
+	text-align: left;
+}
+
+.kakitengah{
+	width: 28%;
+	float: left;
+	padding: 30px;
+	text-align: center;
+}
+
+.kakikanan{
+	width: 28%;
+	float: right;
+	padding:30px;
+	text-align: right;
+}
