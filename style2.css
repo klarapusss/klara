@@ -23,7 +23,7 @@
 	border-radius: 5px;
 }
 
-.logo{
+#header #logo{
 	width: 15%;
 	height: 80px;
 	float: left;
@@ -31,6 +31,12 @@
 	border-radius: 0 0 0 5px;
 }
 
+#header #logo img{
+	width: 80%;
+	height: 70px;
+	border-radius: 0 0 0 5px;
+	margin: 5px 10px 20px 20px;
+}
 .navigasi{
 	width: 85%;
 	height: 80px;
@@ -130,6 +136,7 @@
 	padding: 5px 10px 5px 50px;
 	font-size: 12px;
 	float: left;
+	margin-bottom: 30px;
 }
 
 .saring{
